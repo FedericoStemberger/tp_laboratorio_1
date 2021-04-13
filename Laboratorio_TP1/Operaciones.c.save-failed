@@ -1,0 +1,100 @@
+/** \brief Realiza la suma entre dos numeros y devuelve el resultado
+ *
+ * \param a int primer numero a sumar
+ * \param b int segundo numero a sumar
+ * \return int el resultado de la suma de ambos operandos
+ *
+ */
+int sumar(int a, int b)
+{
+    int resultado;
+
+    resultado = a + b;
+
+    return resultado;
+}
+
+/** \brief Realiza la resta entre dos numeros y devuelve el resultado
+ *
+ * \param a int primer numero a restar
+ * \param b int segundo numero a restar
+ * \return int el resultado de la resta de ambos operandos
+ *
+ */
+int restar(int a, int b)
+{
+    int resultado;
+
+    resultado = a - b;
+
+    return resultado;
+}
+
+/** \brief Realiza la division entre dos numeros y devuelve el resultado
+ *
+ * \param a int dividendo
+ * \param b int divisor
+ * \return float el resultado de la division entre ambos operandos
+ *
+ */
+float dividir(int a, int b)
+{
+    float resultado;
+
+    resultado = a/b;
+
+    return resultado;
+}
+
+/** \brief Realiza la multiplicacion entre dos numeros y devuelve el resultado
+ *
+ * \param a int primer numero a restar
+ * \param b int segundo numero a restar
+ * \return int el resultado de la resta de ambos operandos
+ *
+ */
+int multiplicar(int a, int b)
+{
+    int resultado;
+
+    resultado = a * b;
+
+    return resultado;
+}
+
+/** \brief Realiza el factorial de un numero
+ *
+ * \param a int numero a realizarse el factorial
+ * \return int el resultado del factorial del operando ingresado
+ *
+ */
+int FactA(int a)
+{
+    int resultado = 1;
+
+    for(int i = a; i > 0; i--)
+    {
+        resultado = resultado * i;
+    }
+
+    return resultado;
+}
+
+/** \brief Realiza el factorial de un numero
+ *
+ * \param b int numero a realizarse el factorial
+ * \return int el resultado del factorial del operando ingresado
+ *
+ */
+int Factb(int b)
+{
+    int resultado = 1;
+
+    for(int i = b; i > 0; i--)
+    {
+        resultado = resultado * i;
+    }
+
+    return resultado;
+}
+

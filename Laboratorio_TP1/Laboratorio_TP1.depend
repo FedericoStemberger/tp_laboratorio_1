@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1618186857 source:c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp1\operaciones.c
+	<stdlib.h>
+	<stdio.h>
+	"Operaciones.h"
+
+1618187038 source:c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"Operaciones.h"
+	"Menu.h"
+
+1618186857 c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp1\operaciones.h
+
+1618271601 source:c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp1\menu.c
+	<stdlib.h>
+	<stdio.h>
+	"Menu.h"
+
+1618186857 c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp1\menu.h
+
