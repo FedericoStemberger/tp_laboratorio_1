@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1621117098 source:c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp2\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"validaciones.h"
+
+1621116578 source:c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"menu.h"
+
+1621115676 c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp2\arrayemployees.h
+
+1621117175 source:c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"menu.h"
+
+1621115676 c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp2\menu.h
+
+1621116958 source:c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp2\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1621116958 c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp2\validaciones.h
+
