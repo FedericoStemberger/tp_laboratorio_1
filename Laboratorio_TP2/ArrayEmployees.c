@@ -361,31 +361,10 @@ void mostrarSalarios(Employee list[], int len)
  */
 void burbujeo(Employee list[], int i, int j)
 {
-    char auxChar[51];
-    int auxInt;
-    float auxFloat;
+    Employee aux;
 
-    strcpy(auxChar,list[i].lastName);
-    strcpy(list[i].lastName,list[j].lastName);
-    strcpy(list[j].lastName,auxChar);
+    aux = list[i];
+    list[i] = list[j];
+    list[j] = aux;
 
-    strcpy(auxChar,list[i].name);
-    strcpy(list[i].name,list[j].name);
-    strcpy(list[j].name,auxChar);
-
-    auxFloat = list[i].salary;
-    list[i].salary = list[j].salary;
-    list[j].salary = auxFloat;
-
-    auxInt = list[i].sector;
-    list[i].sector = list[j].sector;
-    list[j].sector = auxInt;
-
-    auxInt = list[i].id;
-    list[i].id = list[j].id;
-    list[j].id = auxInt;
-
-    auxInt = list[i].isEmpty;
-    list[i].isEmpty = list[j].isEmpty;
-    list[j].isEmpty = auxInt;
 }
