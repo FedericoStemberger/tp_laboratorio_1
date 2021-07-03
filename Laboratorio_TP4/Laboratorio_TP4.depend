@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1624748724 source:c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"testing/inc/main_test.h"
+	"LinkedList.h"
+
+1560461330 c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp4\testing\inc\main_test.h
+
+1624041422 c:\users\federico\desktop\tp_laboratorio_1\laboratorio_tp4\linkedlist.h
+
